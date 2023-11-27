@@ -54,7 +54,8 @@ src/instructions_portable.cpp
 src/reciprocal.c
 src/virtual_machine.cpp
 src/vm_compiled_light.cpp
-src/blake2/blake2b.c)
+src/blake2/blake2b.c
+src/arweave/randomx_long_with_entropy.cpp)
 
 if(NOT ARCH_ID)
   # allow cross compiling
