@@ -1,5 +1,5 @@
 ## Fork Notes
-This is primairly a fork of the same version of RandomX that Arweave uses. 
+This is primairly a fork of the version of RandomX that Arweave uses. 
 
 The reason for the fork is to included extension methods to the base RandomX API that give client applications access to the entropy scratchpads RandomX produces as part of its hashing process. Arweave makes use of these deterministic scratchpads as part of packing and unpacking chunks in a unique replica. 
 
